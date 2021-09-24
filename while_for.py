@@ -2,17 +2,21 @@
 while True:
 #tao dieu kien dau vao
     try:
-        a=int(input('a bang '))
-        b=int(input('b bang '))
+        a=int(input('a is '))
+        b=int(input('b is '))
         break
     except:
-        print('nhap lai gia tri a va b ')
+        print('input a and b again ')
 pass
 
         #neu a lon hon b thi sao
 if a>b :
-    print('a lon hon b')
-        #cac truong hop con lai
+    print('number a must be less than number b, try again')
+    
+elseif a==b :
+    print('number a must be less than number b, try again')
+    
+       #cac truong hop con lai
 else:
     tong=0   #tao bien tong
     i=a      #cho a chay tren day so i
@@ -35,11 +39,11 @@ while True:
             print(tong)
             break
         elif a==b:
-            print('so a phai be hon so b')
+            print('number a must be less than number b')
         else:
-            print('so a phai be hon so b')
+            print('number a must be less than number b')
     except:
-        print('a va b nhap sai')
+        print('a and b wrong')
 
 
 
