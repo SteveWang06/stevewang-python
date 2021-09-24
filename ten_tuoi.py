@@ -1,3 +1,4 @@
+#you need create input file (file name is input.Inp)
 try:
 	with open('input.Inp', 'r') as fileInp:
 		ten = fileInp.readline().rstrip('\n')
