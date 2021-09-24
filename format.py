@@ -1,0 +1,10 @@
+dayso=input()
+e=[float(i) for i in dayso.split()]
+a='+{:-<16}+{:-<16}+'.format("","")
+b='|{:>15}{:^20}'.format('tong gio lam','tong luong' )
+c='|{:>10}{:^32}'.format(sum(e),sum(e)*160)
+d='+{:-<16}+{:-<16}+'.format("","")
+print(a)
+print(b)
+print(c)
+print(d)
